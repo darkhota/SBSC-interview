@@ -192,19 +192,54 @@ export default function Home() {
                   </Typography>
                   <Typography p ={400} align="center"component="h1" variant="subtitle1" color="inherit" gutterBottom>
                   A place to experience and enjoy the life
+                  
                   </Typography>
-                  <img align="center" src="play.png" alt="logo" className={classes.logo} />
+                  <div
+    style={{
+        position: 'absolute', 
+        left: '50%', 
+        top: '75%',
+        transform: 'translate(-50%, -50%)'
+    }}
+>
+<img align="center" src="play.png" alt="logo" className={classes.logo} />
+
+</div>
                   </Box>
                 </div>
               </Grid>
             </Grid>
           </Paper>
           </main>
-          <Card className={classes.card}>
-      <CardContent>
-     
-      </CardContent>
-      </Card>
+          <div
+    style={{
+        position: 'absolute', 
+        left: '50%', 
+        top: '85%',
+        transform: 'translate(-50%, -50%)'
+    }}
+>
+          <Paper className={classes.root}>
+          <Grid container spacing = {10}>
+            <Grid item sm >
+              24
+            </Grid>
+            <Grid item sm >
+              29
+              
+            </Grid>
+            <Grid item sm >
+            03
+            
+            </Grid>
+            <Grid item sm >
+            hello
+            
+            </Grid>
+
+          </Grid>
+</Paper>
+</div>
     </div>
   );
 }
